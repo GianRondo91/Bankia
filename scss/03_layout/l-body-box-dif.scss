@@ -1,0 +1,43 @@
+/* l-diferent-box*/
+.l-second-box{
+    display: grid;
+    grid-template-areas: 
+    "c-tittle c-tittle c-tittle"
+    "c-box-left c-box-center c-box-right"
+    "c-link c-link c-link";
+}
+
+.c-tittle {
+    grid-area: c-tittle;
+}
+
+.c-box-left {
+    grid-area: c-box-left;
+}
+.c-box-center {
+    grid-area: c-box-center;
+
+}
+.c-box-right {
+    grid-area: c-box-right;
+}
+
+.c-link  {
+    grid-area: c-link;
+}
+
+/*Orden box*/
+
+.c-box--order {
+    display: grid;
+    grid-template-areas: 
+    "c-box__image c-box__content";
+}
+
+.c-box__image {
+    grid-area: c-box__image;
+}
+
+.c-box__content {
+    grid-area: c-box__content;
+}

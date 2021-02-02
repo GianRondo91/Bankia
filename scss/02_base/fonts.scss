@@ -1,0 +1,110 @@
+/* TYPOGRAPHY */
+
+/*Bankia font*/
+@font-face {
+    font-family: bankia-bold;
+    src: url('../assets/fonts/woff/bankia-bold.woff') 
+    format('woff'), url('../assets/fonts/ttf/bankia-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: bankia-medium;
+    src: url('../assets/fonts/woff/bankia-medium.woff') format('woff'), url('../assets/fonts/ttf/bankia-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: bankia-regular;
+    src: url('../assets/fonts/woff/bankia-regular.woff') format('woff'), url('../assets/fonts/ttf/bankia-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*@font-face { font-family: bankia-bold-italic; src: url('fonts/bankia/woff/bankia-bold-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-bold-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-light; src: url('fonts/bankia/woff/bankia-light.woff') format('woff'),url('fonts/bankia/ttf/bankia-light.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-light-italic; src: url('fonts/bankia/woff/bankia-light-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-light-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-heavy; src:url('fonts/bankia/woff/bankia-heavy.woff') format('woff'),url('fonts/bankia/ttf/bankia-heavy.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-heavy-italic; src: url('fonts/bankia/woff/bankia-heavy-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-heavy-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-medium-italic; src: url('fonts/bankia/woff/bankia-medium-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-medium-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-medium1; src: url('fonts/bankia/woff/bankia-medium1.woff') format('woff'),url('fonts/bankia/ttf/bankia-medium1.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-medium1-italic; src: url('fonts/bankia/woff/bankia-medium1-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-medium1-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+*/
+/*End Bankia font*/
+
+
+/*SourceSansPro font*/
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url('../assets/fonts/woff/SourceSansPro.woff') 
+    format('woff'), 
+    url('../assets/fonts/ttf/SourceSansPro.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*@font-face { font-family: SourceSansPro-It; src: url('fonts/SourceSansPro/woff/SourceSansPro-It.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-It.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-It.otf'); font-weight: normal; font-style: normal; }*/
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url('../assets/fonts/SourceSansPro/woff/SourceSansPro-Bold.woff') format('woff'), url('../fonts/SourceSansPro/ttf/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*@font-face { font-family: SourceSansPro-BoldIt; src: url('fonts/SourceSansPro/woff/SourceSansPro-BoldIt.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-BoldIt.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-BoldIt.otf'); font-weight: normal; font-style: normal; }*/
+
+@font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url('../assets/fonts/woff/SourceSansPro-Semibold.woff') format('woff'), url('../assets/fonts/ttf/SourceSansPro-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*@font-face { font-family: SourceSansPro-SemiboldIt; src: url('fonts/SourceSansPro/woff/SourceSansPro-SemiboldIt.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-SemiboldIt.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-SemiboldIt.otf'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: SourceSansPro-Light; src:url('fonts/SourceSansPro/woff/SourceSansPro-Light.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-Light.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-Light.otf'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: SourceSansPro-LightIT; src: url('fonts/SourceSansPro/woff/SourceSansPro-LightIT.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-LightIT.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-LightIT.otf'); font-weight: normal; font-style: normal; }*/
+
+
+/*End SourceSansPro font*/
+
+
+/*Pe-media-icons font*/
+
+
+/*@font-face { font-family: Pe-media-icons; src: url('fonts/Pe-media-icons/woff/Pe-media-icons.woff') format('woff'),url('fonts/Pe-media-icons/ttf/Pe-media-icons.ttf') format('truetype'),url('fonts/Pe-media-icons/otf/Pe-media-icons.otf'); font-weight: normal; font-style: normal; }*/
+
+
+/*End Pe-media-icons font*/
+
+
+/*exd-font font*/
+
+
+/*@font-face { font-family: exd-font; src: url('fonts/exd-font/woff/exd-font.woff') format('woff'),url('fonts/exd-font/ttf/exd-font.ttf') format('truetype'),url('fonts/exd-font/otf/exd-font.otf'); font-weight: normal; font-style: normal; }*/
+
+
+/*End exd-font font*/
+
+
+/*Simple-line-icons font*/
+
+
+/*@font-face { font-family: Simple-line-icons; src: url('fonts/Simple-line-icons/woff/Simple-line-icons.woff') format('woff'),url('fonts/Simple-line-icons/ttf/Simple-line-icons.ttf') format('truetype'),url('fonts/Simple-line-icons/otf/Simple-line-icons.otf'); font-weight: normal; font-style: normal; }*/

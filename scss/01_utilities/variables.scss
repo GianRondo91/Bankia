@@ -1,0 +1,99 @@
+/*Bankia font*/
+$font-bankia-medium: "bankia-medium";
+$font-bankia-bold: "bankia-bold";
+$font-source: "SourceSansPro";
+$font-bankia-regular: "bankia-regular";
+$font-source-semibold: "SourceSansPro-semibold";
+
+/*Colors*/
+$primary-color: #B2C300;
+$primary-color-alt: #FF9E1B;
+$second-color-alt: rgb(100, 160, 0);
+$second-color: #fff;
+$third-color: #6F7800;
+$text-color: #35261A;
+$linear-gradient-rgba: rgba(120,161,26,1);;
+$linear-gradient: linear-gradient(230deg, rgb(185, 200, 0) 0%, rgb(185, 200, 0) 15%, rgb(100, 160, 0) 60%, rgb(100, 160, 0) 1000%);;
+
+/*Fonts-sizes*/
+$size-a: 8px; 
+$size-b: 10px; 
+$size-c: 12px;    
+$size-d: 14px;
+$size-e: 16px;
+$size-f: 18px;
+$size-g: 20px;
+$size-h: 22px;
+$size-i: 24px;
+
+/*Padding*/
+$pd-0: 0px;
+$pd-a: 2px;
+$pd-b: 4px;
+$pd-c: 6px;
+$pd-d: 8px;
+$pd-e: 10px;
+$pd-f: 12px;
+$pd-g: 15px;
+$pd-h: 20px;
+$pd-i: 24px;
+
+/*Imagenes-Sizes*/
+$img-s: 40px;
+$img-m: 0px;
+$img-l: 128px;
+$img-xl: 138px;
+$img-xxl: 355px;
+$img-background-size: 1658px;
+
+/*Margin / Padding*/
+$mp-a: 0px;
+$mp-b: 4px; 
+$mp-c: 8px; 
+$mp-d: 10px;
+$mp-e: 12px; 
+$mp-f: 15px; 
+$mp-g: 16px; 
+$mp-h: 20px; 
+$mp-i: 24px; 
+$mp-j: 30px;
+$mp-k: 32px; 
+$mp-l: 40px; 
+$mp-m: 48px; 
+$mp-n: 64px; 
+$mp-o: 77px; 
+$mp-p: 90px; 
+$mp-q: 96px; 
+$mp-r: 128px; 
+$mp-s: 160px; 
+$mp-t: 192px; 
+$mp-u: 224px; 
+$mp-v: 256px; 
+$mp-w: 320px; 
+$mp-ww: 400px; 
+$mp-x: 480px; 
+$mp-y: 640px;
+$mp-z: 720px;
+
+/*Width / Height*/
+$hw-a: 170px;
+$hw-b: 193px;
+$hw-c: 364px;
+$hw-cc: 400px;
+$hw-d: 700px;
+$hw-e: 720px;
+$hw-ee: 1110px;
+$hw-f: 1140px;
+$hw-g: 1658px;
+$hw-h: 1800px;
+$hw-i: 2000px;
+$hw-j: 2200px;
+
+/*Negativos*/
+$n-a: 0px;
+/*$n-b:;
+$n-c:;
+$n-d:;
+$n-e:;
+$n-g:;*/
+$n-h:-540px;

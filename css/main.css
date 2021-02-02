@@ -1,0 +1,980 @@
+/*Utilities*/
+/*Bankia font*/
+/*Colors*/
+/*Fonts-sizes*/
+/*Padding*/
+/*Imagenes-Sizes*/
+/*Margin / Padding*/
+/*Width / Height*/
+/*Negativos*/
+/*$n-b:;
+$n-c:;
+$n-d:;
+$n-e:;
+$n-g:;*/
+/*Base*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0; }
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block; }
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent; }
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%; }
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none; }
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline; }
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto; }
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block; }
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item; }
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none; }
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none; }
+
+/*fonts*/
+/* TYPOGRAPHY */
+/*Bankia font*/
+@font-face {
+  font-family: bankia-bold;
+  src: url("../assets/fonts/woff/bankia-bold.woff") format("woff"), url("../assets/fonts/ttf/bankia-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: bankia-medium;
+  src: url("../assets/fonts/woff/bankia-medium.woff") format("woff"), url("../assets/fonts/ttf/bankia-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: bankia-regular;
+  src: url("../assets/fonts/woff/bankia-regular.woff") format("woff"), url("../assets/fonts/ttf/bankia-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*@font-face { font-family: bankia-bold-italic; src: url('fonts/bankia/woff/bankia-bold-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-bold-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-light; src: url('fonts/bankia/woff/bankia-light.woff') format('woff'),url('fonts/bankia/ttf/bankia-light.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-light-italic; src: url('fonts/bankia/woff/bankia-light-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-light-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-heavy; src:url('fonts/bankia/woff/bankia-heavy.woff') format('woff'),url('fonts/bankia/ttf/bankia-heavy.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-heavy-italic; src: url('fonts/bankia/woff/bankia-heavy-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-heavy-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-medium-italic; src: url('fonts/bankia/woff/bankia-medium-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-medium-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-medium1; src: url('fonts/bankia/woff/bankia-medium1.woff') format('woff'),url('fonts/bankia/ttf/bankia-medium1.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bankia-medium1-italic; src: url('fonts/bankia/woff/bankia-medium1-italic.woff') format('woff'),url('fonts/bankia/ttf/bankia-medium1-italic.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+*/
+/*End Bankia font*/
+/*SourceSansPro font*/
+@font-face {
+  font-family: SourceSansPro;
+  src: url("../assets/fonts/woff/SourceSansPro.woff") format("woff"), url("../assets/fonts/ttf/SourceSansPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*@font-face { font-family: SourceSansPro-It; src: url('fonts/SourceSansPro/woff/SourceSansPro-It.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-It.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-It.otf'); font-weight: normal; font-style: normal; }*/
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url("../assets/fonts/SourceSansPro/woff/SourceSansPro-Bold.woff") format("woff"), url("../fonts/SourceSansPro/ttf/SourceSansPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*@font-face { font-family: SourceSansPro-BoldIt; src: url('fonts/SourceSansPro/woff/SourceSansPro-BoldIt.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-BoldIt.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-BoldIt.otf'); font-weight: normal; font-style: normal; }*/
+@font-face {
+  font-family: SourceSansPro-Semibold;
+  src: url("../assets/fonts/woff/SourceSansPro-Semibold.woff") format("woff"), url("../assets/fonts/ttf/SourceSansPro-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*@font-face { font-family: SourceSansPro-SemiboldIt; src: url('fonts/SourceSansPro/woff/SourceSansPro-SemiboldIt.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-SemiboldIt.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-SemiboldIt.otf'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: SourceSansPro-Light; src:url('fonts/SourceSansPro/woff/SourceSansPro-Light.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-Light.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-Light.otf'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: SourceSansPro-LightIT; src: url('fonts/SourceSansPro/woff/SourceSansPro-LightIT.woff') format('woff'),url('fonts/SourceSansPro/ttf/SourceSansPro-LightIT.ttf') format('truetype'),url('fonts/SourceSansPro/otf/SourceSansPro-LightIT.otf'); font-weight: normal; font-style: normal; }*/
+/*End SourceSansPro font*/
+/*Pe-media-icons font*/
+/*@font-face { font-family: Pe-media-icons; src: url('fonts/Pe-media-icons/woff/Pe-media-icons.woff') format('woff'),url('fonts/Pe-media-icons/ttf/Pe-media-icons.ttf') format('truetype'),url('fonts/Pe-media-icons/otf/Pe-media-icons.otf'); font-weight: normal; font-style: normal; }*/
+/*End Pe-media-icons font*/
+/*exd-font font*/
+/*@font-face { font-family: exd-font; src: url('fonts/exd-font/woff/exd-font.woff') format('woff'),url('fonts/exd-font/ttf/exd-font.ttf') format('truetype'),url('fonts/exd-font/otf/exd-font.otf'); font-weight: normal; font-style: normal; }*/
+/*End exd-font font*/
+/*Simple-line-icons font*/
+/*@font-face { font-family: Simple-line-icons; src: url('fonts/Simple-line-icons/woff/Simple-line-icons.woff') format('woff'),url('fonts/Simple-line-icons/ttf/Simple-line-icons.ttf') format('truetype'),url('fonts/Simple-line-icons/otf/Simple-line-icons.otf'); font-weight: normal; font-style: normal; }*/
+/*Layout*/
+/*Cabecera*/
+.l-header {
+  display: grid;
+  grid-template-areas: "l-header__menu l-header__menu l-header__menu" "l-header__body l-header__body l-header__body" "l-header__footer l-header__footer l-header__footer"; }
+
+.l-header__menu {
+  grid-area: l-header__menu; }
+
+.l-header__body {
+  grid-area: l-header__body; }
+
+.l-header__footer {
+  grid-area: l-header__footer; }
+
+/* Menu Cabecera */
+.l-header__menu {
+  display: grid;
+  grid-template-areas: "c-menu-sup-left c-menu-sup-right" "c-vacio c-button" "c-menu-float c-menu-float"; }
+
+.c-menu-sup-left {
+  grid-area: c-menu-sup-left; }
+
+.c-menu-sup-right {
+  grid-area: c-menu-sup-right; }
+
+.c-button--alt-pri {
+  grid-area: c-button--alt-pri; }
+
+.c-button--alt-sec {
+  grid-area: c-button--alt-sec; }
+
+.c-menu-float {
+  grid-area: c-menu-float; }
+
+/* l-header__body */
+.l-header__body {
+  display: grid;
+  grid-template-areas: "c-carrusel_move-left c-vacio c-carrusel__item " "c-vacio c-carrusel_move-center c-vacio"; }
+
+.c-carrusel_move-left {
+  grid-area: c-carrusel_move-left; }
+
+.c-carrusel__item {
+  grid-area: c-carrusel__item; }
+
+.c-carrusel_move-right {
+  grid-area: c-carrusel_move-right; }
+
+.c-carrusel_move-center {
+  grid-area: c-carrusel_move-center; }
+
+/*l-header__footer*/
+.l-header__footer {
+  display: grid;
+  grid-template-areas: "l-header__footer__left v-left l-header__footer__center v-right l-header__footer__right"; }
+
+.l-header__footer__left {
+  grid-area: l-header__footer__left; }
+
+.l-header__footer__center {
+  grid-area: l-header__footer__center;
+  justify-self: center; }
+
+.l-header__footer__right {
+  grid-area: l-header__footer__right; }
+
+.v-left {
+  grid-area: v-left; }
+
+.v-right {
+  grid-area: v-right; }
+
+/*l-header__footer -- c-card
+.c-card{
+    display: grid;
+    grid-template-columns: 
+        "c-card__img c-card__tittle"
+        "c-card__img c-card__text"
+        "c-card__img c-card__button";
+}
+
+.c-card__img{
+    grid-area: c-card__img;
+}
+
+.c-card__tittle{
+    grid-area: c-card__tittle;
+    justify-self: center;
+}
+
+.c-card__text{
+    grid-area: c-card__text;
+    justify-self: center;
+}
+
+.c-card__button{
+    grid-area: c-card__button;
+    justify-self: center;
+}
+*/
+/* l-body */
+.l-body {
+  display: grid;
+  grid-template-areas: "l-first-box" "l-second-box" "l-third-box"; }
+
+.l-first-box {
+  grid-area: l-first-box; }
+
+.l-second-box {
+  grid-area: l-second-box; }
+
+.l-third-box {
+  grid-area: l-third-box; }
+
+/* l-equals-box*/
+.l-first-box, .l-third-box {
+  display: grid;
+  grid-template-areas: "c-tittle c-tittle c-tittle" "c-box-left c-box-center c-box-right"; }
+
+.c-tittle {
+  grid-area: c-tittle; }
+
+.c-box-left {
+  grid-area: c-box-left; }
+
+.c-box-center {
+  grid-area: c-box-center; }
+
+.c-box-right {
+  grid-area: c-box-right; }
+
+/* l-diferent-box*/
+.l-second-box {
+  display: grid;
+  grid-template-areas: "c-tittle c-tittle c-tittle" "c-box-left c-box-center c-box-right" "c-link c-link c-link"; }
+
+.c-tittle {
+  grid-area: c-tittle; }
+
+.c-box-left {
+  grid-area: c-box-left; }
+
+.c-box-center {
+  grid-area: c-box-center; }
+
+.c-box-right {
+  grid-area: c-box-right; }
+
+.c-link {
+  grid-area: c-link; }
+
+/*Orden box*/
+.c-box--order {
+  display: grid;
+  grid-template-areas: "c-box__image c-box__content"; }
+
+.c-box__image {
+  grid-area: c-box__image; }
+
+.c-box__content {
+  grid-area: c-box__content; }
+
+/* l-footer */
+.l-footer {
+  display: grid;
+  grid-template-areas: "c-box-left c-box-center-left c-box-center-right c-box-right c-box-icons" "c-legal c-legal c-legal c-legal c-legal"; }
+
+.c-box-left {
+  grid-area: c-box-left; }
+
+.c-box-center-left {
+  grid-area: c-box-center-left; }
+
+.c-box-center-right {
+  grid-area: c-box-center-right; }
+
+.c-box-right {
+  grid-area: c-box-right; }
+
+.c-box-icons {
+  grid-area: c-box-icons; }
+
+.c-legal {
+  grid-area: c-legal; }
+
+/**/
+.c-footer-box {
+  display: grid;
+  grid-template-areas: "c-tittle"  "c-content"; }
+
+.c-tittle {
+  grid-area: c-tittle; }
+
+.c-content {
+  grid-area: c-content; }
+
+/*Componentes*/
+/**/
+.background-img {
+  max-width: 1658px;
+  min-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; }
+
+.background-img img {
+  height: 720px;
+  transform: translate(-262px, 0px); }
+
+/**/
+.l-header {
+  position: absolute;
+  height: 720px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  max-width: 1658px;
+  min-width: 1110px;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*General*/
+.l-header__menu ul {
+  list-style: none;
+  position: relative;
+  margin: 0px; }
+
+.l-header__menu li {
+  display: inline-block; }
+
+a {
+  text-decoration: none; }
+
+/*.l-header__menu*/
+.l-header__menu {
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden; }
+
+.l-header__menu .c-button, .c-menu-sup-left {
+  height: 20px; }
+
+/*menu-sup-left*/
+.c-menu-sup-left__item ul {
+  background-color: #B2C300;
+  width: 700px; }
+
+.c-menu-sup-left__item li:hover {
+  background-color: #fff; }
+
+.c-menu-sup-left__item a, .c-menu-sup-right__item a {
+  font-family: "bankia-medium";
+  color: #35261A; }
+
+.c-menu-sup-left a {
+  font-size: 16px; }
+
+.c-menu-sup-right__item a, .c-menu-sup-right__item i {
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.c-menu-sup-left li {
+  padding: 4px 12px; }
+
+/*menu-sup-right*/
+.c-menu-sup-right__item {
+  min-width: 500px;
+  padding-top: 6px; }
+
+.c-menu-sup-right__item ul {
+  padding-left: 20px; }
+
+/*button*/
+.c-button--alt-pri button {
+  background: #B2C300;
+  padding: 6px 10px 6px 10px;
+  border: none; }
+
+.c-button--alt-sec button {
+  margin-right: 32px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #B2C300; }
+
+.c-button--alt-pri button, .c-button--alt-sec button {
+  font-family: "SourceSansPro-semibold";
+  color: #35261A;
+  border-radius: 0.2em; }
+
+/*menu-float*/
+.c-menu-float__item li {
+  padding-left: 20px;
+  color: #35261A; }
+
+.c-menu-float__item li a {
+  font-family: "bankia-regular";
+  font-size: 16px;
+  color: #35261A;
+  padding-left: 20px; }
+
+.c-button {
+  margin-left: auto;
+  font-size: 14px; }
+
+.c-carrusel__card > .c-card__tittle {
+  font-family: "bankia-bold";
+  font-size: 24px; }
+
+.c-carrusel__card .c-card__text {
+  font-size: 20px;
+  font-family: "SourceSansPro"; }
+
+.c-carrusel__card .c-card__button button {
+  padding: 15px 15px 15px 24px;
+  color: #64a000;
+  border: none; }
+
+.c-carrusel__card .c-card__button i {
+  padding-left: 20px; }
+
+/*Carrusel*/
+.c-carrusel__item {
+  color: #fff;
+  background: #78a11a;
+  background: linear-gradient(230deg, #b9c800 0%, #b9c800 15%, #64a000 60%, #64a000 1000%);
+  width: 363.750px;
+  height: 193px;
+  padding: 24px;
+  float: right;
+  margin-right: 90px;
+  margin-top: 60px;
+  border-radius: 2%; }
+
+.c-carrusel_move-left {
+  float: inline-end; }
+
+/*c-carrusel_move-center*/
+.c-carrusel_move-center {
+  color: white;
+  font-size: 14px;
+  opacity: 0.8;
+  position: absolute;
+  top: 508px;
+  left: 572px;
+  display: flex; }
+
+.c-carrusel_move-center i {
+  padding: 8px;
+  color: white; }
+
+.c-carrusel_move i {
+  font-size: 24px; }
+
+.c-carrusel_move {
+  position: absolute;
+  top: 280px;
+  color: white; }
+
+.c-carrusel_move--left {
+  left: 35px;
+  top: 280px; }
+
+.c-carrusel_move--right {
+  right: 40px; }
+
+.c-card .c-card__tittle {
+  font-family: "bankia-bold";
+  font-size: 20px;
+  width: 336px;
+  padding-right: 30px; }
+
+.c-card .c-card__text {
+  font-size: 14px;
+  font-family: "SourceSansPro"; }
+
+.l-header__footer {
+  background-color: #fff;
+  opacity: 0.9;
+  height: 170px;
+  margin-block-start: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1140px; }
+
+.c-button--small {
+  float: left;
+  padding-right: 40px; }
+
+/*l-header__footer*/
+.c-card {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content; }
+
+.c--card--center {
+  margin-left: 10px; }
+
+.l-header__footer .c-card {
+  padding-top: 20px; }
+
+.l-header__footer .c-card__img img {
+  width: 40px;
+  float: left;
+  padding: 0px 40px 96px 30px; }
+
+.l-header__footer .c-card__tittle {
+  padding-bottom: 32px; }
+
+.l-header__footer__right .c-card__tittle {
+  padding-bottom: 16px;
+  margin-bottom: 0px; }
+
+.l-header__footer__right .c-card__text p {
+  margin-top: 0px; }
+
+.l-header__footer h2 {
+  font-size: 20px;
+  margin-top: 0px; }
+
+.l-header__footer .c-card__text p {
+  position: relative;
+  top: 15px;
+  font-family: "SourceSansPro"; }
+
+.l-header__footer__right .c-card__text p {
+  top: -12px; }
+
+.l-header__footer .c-card__button a {
+  font-size: 14px;
+  font-family: "SourceSansPro-semibold";
+  color: #6F7800;
+  font-weight: bold;
+  position: absolute;
+  top: 140px; }
+
+.v-left, .v-right {
+  width: 1px;
+  border-left: 1px solid lightgray;
+  height: 90px;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.l-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px; }
+
+.l-body p {
+  margin: 0px;
+  font-family: "SourceSansPro"; }
+
+.l-body .c-tittle {
+  text-align: center;
+  font-family: "bankia-bold";
+  font-size: 20px;
+  margin-top: 20px; }
+
+.l-first-box--equals img {
+  width: 355px; }
+
+.c-box-center {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.l-first-box--equals .c-box-left,
+.l-first-box--equals .c-box-center,
+.l-first-box--equals .c-box-right {
+  border: 1px solid;
+  height: 500px; }
+
+.l-first-box--equals .c-box-tittle,
+.l-first-box--equals .c-box__text,
+.l-first-box--equals .c-box__button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 0px 20px; }
+
+.l-first-box--equals button {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid; }
+
+.l-first-box button {
+  position: absolute;
+  top: 1260px; }
+
+/*Center*/
+.l-second-box {
+  position: relative; }
+
+.l-second-box--mod {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  height: 120px;
+  background-color: #EFEFEE;
+  z-index: -1; }
+
+.l-second-box--mod-line {
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  margin-left: 33%;
+  margin-right: 33%;
+  height: 100%;
+  width: 33%; }
+
+.l-second-box img {
+  width: 130px; }
+
+.c-box__content {
+  width: 180px;
+  padding: 10px 27px 25px 22px; }
+
+.l-second-box .c-box-tittle {
+  font-family: "bankia-bold"; }
+
+.c-box__content p {
+  width: 180px; }
+
+.l-second-box .c-link a {
+  float: right;
+  color: #6F7800;
+  font-family: "SourceSansPro-semibold"; }
+
+/*footer*/
+.l-third-box button {
+  position: absolute;
+  top: 2150px; }
+
+.l-third-box {
+  margin-bottom: 50px; }
+
+/**/
+.ribbon {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 94%, 19% 94%, 10% 100%, 0% 94%); }
+
+.l-footer {
+  height: 400px;
+  max-width: 1140px;
+  min-width: 1140px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.l-footer--mod {
+  border-top: 10px solid #B9C800;
+  width: 100%; }
+
+.l-footer ul {
+  list-style: none;
+  padding: 0; }
+
+.l-footer li {
+  padding-bottom: 8px; }
+
+.l-footer h3 {
+  font-size: 16px;
+  text-align: left; }
+
+.l-footer a {
+  color: #332619;
+  font-family: "SourceSansPro";
+  font-size: 14px; }
+
+.fab {
+  font-size: 20px; }
+
+.c-box-icons {
+  display: inline; }
+
+.c-footer-box {
+  display: initial;
+  width: 160px;
+  padding: 0px 15px 0px 32px; }
+
+.c-icons li {
+  display: inline-block;
+  padding-right: 6px; }
+
+.c-footer-box .c-tittle {
+  height: 30px; }
+
+.c-legal p {
+  text-align: center;
+  padding-bottom: 20px; }

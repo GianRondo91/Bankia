@@ -1,0 +1,23 @@
+/* l-header__body */
+.l-header__body{
+    display: grid;
+    grid-template-areas: 
+        "c-carrusel_move-left c-vacio c-carrusel__item "
+        "c-vacio c-carrusel_move-center c-vacio";
+}
+
+.c-carrusel_move-left{
+    grid-area: c-carrusel_move-left;
+}
+
+.c-carrusel__item {
+    grid-area: c-carrusel__item;
+}
+
+.c-carrusel_move-right{
+    grid-area: c-carrusel_move-right;
+}
+
+.c-carrusel_move-center{
+    grid-area: c-carrusel_move-center;
+}

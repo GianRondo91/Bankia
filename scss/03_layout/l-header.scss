@@ -1,0 +1,21 @@
+/*Cabecera*/
+.l-header{
+    display: grid;
+    grid-template-areas: 
+        "l-header__menu l-header__menu l-header__menu"
+        "l-header__body l-header__body l-header__body"
+        "l-header__footer l-header__footer l-header__footer";
+}
+
+.l-header__menu {
+    grid-area: l-header__menu;
+
+}
+
+.l-header__body {
+    grid-area: l-header__body;
+}
+
+.l-header__footer{
+    grid-area: l-header__footer;
+}

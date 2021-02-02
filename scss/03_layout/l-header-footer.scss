@@ -1,0 +1,56 @@
+/*l-header__footer*/
+.l-header__footer{
+    display: grid;
+    grid-template-areas:
+    "l-header__footer__left v-left l-header__footer__center v-right l-header__footer__right";
+}
+
+.l-header__footer__left{
+    grid-area: l-header__footer__left;
+}
+
+.l-header__footer__center{
+    grid-area: l-header__footer__center;
+    justify-self: center;
+}
+
+.l-header__footer__right{
+    grid-area: l-header__footer__right;
+}
+
+.v-left{
+    grid-area: v-left;
+}
+
+.v-right{
+    grid-area: v-right;
+}
+
+/*l-header__footer -- c-card
+.c-card{
+    display: grid;
+    grid-template-columns: 
+        "c-card__img c-card__tittle"
+        "c-card__img c-card__text"
+        "c-card__img c-card__button";
+}
+
+.c-card__img{
+    grid-area: c-card__img;
+}
+
+.c-card__tittle{
+    grid-area: c-card__tittle;
+    justify-self: center;
+}
+
+.c-card__text{
+    grid-area: c-card__text;
+    justify-self: center;
+}
+
+.c-card__button{
+    grid-area: c-card__button;
+    justify-self: center;
+}
+*/

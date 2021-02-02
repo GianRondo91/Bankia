@@ -1,0 +1,41 @@
+/**/
+.background-img{
+    max-width: $hw-g;
+    min-width: $hw-ee;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.background-img img{
+    height: $hw-e;
+    transform: translate(-262px, $n-a);
+}
+
+/**/
+.l-header {
+    position: absolute;
+    height: $mp-z;
+    top: $mp-a;
+    right: $mp-a;
+    left: $mp-a;
+    max-width: $hw-g;
+    min-width: $hw-ee;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*General*/
+.l-header__menu ul{
+    list-style: none;
+    position: relative;
+    margin: $mp-a;
+}
+
+.l-header__menu li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+
+@media (min-width: 1200px){
+    /*header-footer*/
+    .-header__footer{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1140px;
+    }
+}

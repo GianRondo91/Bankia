@@ -1,0 +1,95 @@
+.c-card .c-card__tittle {
+    font-family: $font-bankia-bold;
+    font-size: $size-g;
+    width: 336px;
+    padding-right: 30px;
+}
+
+.c-card .c-card__text {
+    font-size: $size-d;
+    font-family: $font-source;
+}
+
+.l-header__footer{
+    background-color: $second-color;
+    opacity: 0.9;
+    height: $hw-a;
+    margin-block-start: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: $hw-f;
+}
+
+.c-button--small{
+    float: left;
+    padding-right: $mp-l;
+}
+
+/*l-header__footer*/
+.c-card{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    
+}
+
+.c--card--center{
+    margin-left: 10px;
+}
+
+.l-header__footer .c-card{
+    padding-top: $mp-h;
+}
+
+.l-header__footer .c-card__img img{
+    width: $mp-l;
+    float: left;
+    padding: $mp-a $mp-l $mp-q $mp-j;
+}
+
+.l-header__footer .c-card__tittle{
+    padding-bottom: $mp-k;
+}
+
+.l-header__footer__right .c-card__tittle{
+    padding-bottom: $mp-g;
+    margin-bottom: $mp-a;
+}
+
+.l-header__footer__right .c-card__text p{
+    margin-top: $mp-a;
+}
+
+
+.l-header__footer h2{
+    font-size: $size-g;
+    margin-top: $mp-a;
+}
+
+.l-header__footer .c-card__text p{
+    position: relative;
+    top: 15px;
+    font-family: $font-source;
+}
+
+.l-header__footer__right .c-card__text p{
+    top: -12px;
+}
+
+.l-header__footer .c-card__button a {
+    font-size: $size-d;
+    font-family: $font-source-semibold;
+    color: $third-color;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+}
+
+.v-left, .v-right{
+    width: 1px;
+    border-left: 1px solid lightgray;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

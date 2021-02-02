@@ -1,0 +1,30 @@
+/*Utilities*/
+@import "../scss/01_utilities/variables.scss";
+
+/*Base*/
+@import "../scss/02_base/reset.scss";
+
+/*fonts*/
+@import "../scss/02_base/fonts.scss";
+
+/*Layout*/
+@import "../scss/03_layout/l-header.scss";
+@import "../scss/03_layout/l-header-menu.scss";
+@import "../scss/03_layout/l-header-body.scss";
+@import "../scss/03_layout/l-header-footer.scss";
+
+@import "../scss/03_layout/l-body.scss";
+@import "../scss/03_layout/l-body-equals-box.scss";
+@import "../scss/03_layout/l-body-box-dif.scss";
+
+@import "../scss/03_layout/l-footer.scss";
+
+/*Componentes*/
+@import "../scss/04_components/header.scss";
+@import "../scss/04_components/c-header-header.scss";
+@import "../scss/04_components/c-header-body.scss";
+@import "../scss/04_components/c-header-footer.scss";
+
+@import "../scss/04_components/c-body-box.scss";
+
+@import "../scss/04_components/footer.scss";

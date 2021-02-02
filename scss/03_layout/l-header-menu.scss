@@ -1,0 +1,30 @@
+/* Menu Cabecera */
+.l-header__menu{
+    display: grid;
+    grid-template-areas: 
+        "c-menu-sup-left c-menu-sup-right"
+        "c-vacio c-button"
+        "c-menu-float c-menu-float";
+}
+
+.c-menu-sup-left {
+    grid-area: c-menu-sup-left;
+    
+}
+
+.c-menu-sup-right {
+    grid-area: c-menu-sup-right;
+}
+
+.c-button--alt-pri {
+    grid-area: c-button--alt-pri;
+    
+}
+
+.c-button--alt-sec {
+    grid-area: c-button--alt-sec;
+}
+
+.c-menu-float {
+    grid-area: c-menu-float;
+}

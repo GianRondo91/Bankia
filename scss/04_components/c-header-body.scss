@@ -1,0 +1,77 @@
+.c-button {
+    margin-left: auto;
+    font-size: $size-d;
+}
+
+.c-carrusel__card > .c-card__tittle {
+    font-family: $font-bankia-bold;
+    font-size: $size-i;
+}
+
+.c-carrusel__card .c-card__text {
+    font-size: $size-g;
+    font-family: $font-source;
+}
+
+.c-carrusel__card .c-card__button button{
+    padding: $pd-g $pd-g $pd-g $pd-i;
+    color: $second-color-alt;
+    border: none;
+}
+
+.c-carrusel__card .c-card__button i{
+    padding-left: $pd-h;
+}
+
+/*Carrusel*/
+.c-carrusel__item{
+    color: $second-color;
+    background: $linear-gradient-rgba;
+    background: $linear-gradient;
+    width: 363.750px;
+    height: 193px;
+    padding: 24px;
+    float: right;
+    margin-right: $mp-p;
+    margin-top: 60px;
+    border-radius: 2%;
+}
+
+.c-carrusel_move-left{
+    float: inline-end;
+}
+
+/*c-carrusel_move-center*/
+.c-carrusel_move-center {
+    color: white;
+    font-size: $size-d;
+    opacity: 0.8;
+    position: absolute;
+    top: 508px;
+    left: 572px;
+    display: flex;
+}
+
+.c-carrusel_move-center i{
+    padding: 8px;
+    color: white;
+}
+
+.c-carrusel_move i{
+    font-size: $size-i;
+}
+
+.c-carrusel_move{
+    position: absolute;
+    top: 280px;
+    color: white;
+}
+
+.c-carrusel_move--left{
+    left: 35px;
+    top: 280px;
+}
+
+.c-carrusel_move--right{
+    right: 40px;
+}

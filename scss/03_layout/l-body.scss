@@ -1,0 +1,20 @@
+/* l-body */
+.l-body{
+    display: grid;
+    grid-template-areas: 
+        "l-first-box"
+        "l-second-box"
+        "l-third-box";
+}
+
+.l-first-box{
+    grid-area: l-first-box;
+}
+
+.l-second-box{
+    grid-area: l-second-box;
+}
+
+.l-third-box{
+    grid-area: l-third-box;
+}

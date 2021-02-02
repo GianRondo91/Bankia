@@ -1,0 +1,22 @@
+/* l-equals-box*/
+.l-first-box, .l-third-box{
+    display: grid;
+    grid-template-areas: 
+    "c-tittle c-tittle c-tittle"
+    "c-box-left c-box-center c-box-right";
+}
+
+.c-tittle {
+    grid-area: c-tittle;
+}
+
+.c-box-left {
+    grid-area: c-box-left;
+}
+.c-box-center {
+    grid-area: c-box-center;
+
+}
+.c-box-right {
+    grid-area: c-box-right;
+}

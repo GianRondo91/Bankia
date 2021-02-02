@@ -1,0 +1,81 @@
+/*.l-header__menu*/
+.l-header__menu{
+    background-color: rgba($color: white, $alpha: 0.8);
+    overflow: hidden;
+}
+
+.l-header__menu .c-button, .c-menu-sup-left{
+    height: 20px;
+}
+
+/*menu-sup-left*/
+.c-menu-sup-left__item ul{
+    background-color: $primary-color;
+    width: $hw-d;
+}
+
+.c-menu-sup-left__item li:hover {
+    background-color: $second-color;
+}
+
+.c-menu-sup-left__item a, .c-menu-sup-right__item a{
+    font-family: $font-bankia-medium;
+    color: $text-color;
+}
+
+.c-menu-sup-left a {
+    font-size: $size-e;
+}
+
+.c-menu-sup-right__item a, .c-menu-sup-right__item i{
+    font-size: $size-d;
+    padding-right: $pd-e;
+    padding-left: $pd-e;
+}
+
+.c-menu-sup-left li {
+    padding: $pd-b $pd-f;
+}
+
+/*menu-sup-right*/
+.c-menu-sup-right__item{
+    min-width: 500px;
+    padding-top: $pd-c;
+}
+
+.c-menu-sup-right__item ul{
+    padding-left: 20px;
+}
+
+/*button*/
+.c-button--alt-pri button{
+    background: $primary-color;
+    padding: $pd-c $pd-e $pd-c $pd-e;
+    border: none;
+}
+
+.c-button--alt-sec button{
+    margin-right: $mp-k;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid $primary-color;
+}
+
+.c-button--alt-pri button, .c-button--alt-sec button {
+    font-family: $font-source-semibold;
+    color: $text-color;
+    border-radius: 0.2em;
+}
+
+/*menu-float*/
+.c-menu-float__item li {
+    padding-left: $pd-h;
+    color: $text-color;
+}
+
+.c-menu-float__item li a{
+    font-family: $font-bankia-regular;
+    font-size: $size-e;
+    color: $text-color;
+    padding-left: 20px;
+}
